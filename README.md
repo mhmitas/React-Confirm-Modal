@@ -61,11 +61,11 @@ const ConfirmModal = ({ message, onConfirm, onCancel }) => {
                 <h2 className="text-lg font-semibold mb-4">Confirm Action</h2>
                 <p className="mb-6">{message}</p>
                 <div className="flex justify-end space-x-4">
-                    <button className="btn btn-secondary" onClick={onCancel}>
-                        Cancel
-                    </button>
                     <button className="btn btn-primary" onClick={onConfirm}>
                         Confirm
+                    </button>
+                    <button className="btn btn-secondary" onClick={onCancel}>
+                        Cancel
                     </button>
                 </div>
             </div>
