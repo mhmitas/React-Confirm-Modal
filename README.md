@@ -41,7 +41,7 @@ const confirm = (message) => {
 export default confirm;
 ```
 
-ConfirmModal.js
+ConfirmModal.js  
 ```js
 import React, { useState, useEffect } from 'react';
 
