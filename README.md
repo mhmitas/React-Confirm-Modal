@@ -76,7 +76,7 @@ export default ConfirmModal;
 ```
 
 
-ConfirmModal.js  [animeted]
+ConfirmModal.js  [animated]
 ```js
 import React, { useState, useEffect } from 'react';
 
